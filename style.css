@@ -1,0 +1,103 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    overflow: hidden; /* new learning */
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-text h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 25px;
+    padding: 3% 0;
+}
+
+.card-text p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 40px 40px 40px;
+    line-height: 20pt; /* new learning */
+}
+
+.card-plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    width: 80%;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.card-plan-description {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30px;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px 0;
+}
+
+.card-buttons button {
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer; /* new learning */
+}
+
+.card-buttons .payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.card-buttons .cancel {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
