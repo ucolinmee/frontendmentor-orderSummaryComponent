@@ -43,6 +43,8 @@ body {
 .card-plan {
     background-color: hsl(225, 100%, 98%);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 80%;
     border-radius: 25px;
     padding: 20px;
@@ -51,7 +53,31 @@ body {
 .card-plan-description {
     display: flex;
     flex-direction: column;
-    flex-basis: 30px;
+    margin-right: 30px;
+}
+
+.card-plan-description .plan {
+    font-weight: 900;
+    margin: 0;
+}
+
+.card-plan-description .rate {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.card-plan a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.card-plan a:hover {
+    text-decoration: none;
+    opacity: 70%;
 }
 
 .card-buttons {
@@ -75,22 +101,18 @@ body {
     color: white;
 }
 
+.card-buttons .payment:hover {
+    opacity: 70%;
+}
+
 .card-buttons .cancel {
     background-color: white;
     color: hsl(224, 23%, 55%);
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.card-buttons .cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
 
 .attribution {
   font-size: 11px;
